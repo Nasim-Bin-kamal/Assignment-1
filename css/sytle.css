@@ -27,19 +27,23 @@ h2 {
   color: coral;
 }
 .container-element {
-  margin: 0% 5%;
+  margin: 0% 0%;
   display: flex;
+}
+.sec-one {
+  margin-top: 80px;
 }
 
 .contents {
   width: 50%;
-  margin-top: 100px;
-  padding: 2% 2%;
+  padding: 2% 5%;
 }
 .contents img {
   width: 100%;
 }
-
+.adjust {
+  margin-top: 100px;
+}
 .contents p {
   color: gray;
   font-weight: bold;
@@ -60,8 +64,26 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-footer {
+.description {
+  text-align: center;
+  text-decoration: none;
+  margin: 0% 20%;
+  padding: 0% 2%;
+}
+.recipies {
+  width: 30%;
+  margin: 2% 5% 5%;
+  padding: 2% 2%;
+  border: 1px solid white;
+  box-shadow: 10px 20px 40px #a59a9a;
+  border-radius: 20px;
+  text-align: justify;
+}
+.recipies img {
   width: 100%;
+  border-radius: 15px;
+}
+footer {
   height: 200px;
   text-align: center;
   padding: 20px;
