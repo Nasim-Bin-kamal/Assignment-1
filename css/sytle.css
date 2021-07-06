@@ -45,6 +45,7 @@ h2 {
 .change-color {
   color: coral;
 }
+
 .container-element {
   margin: 0% 0%;
   display: flex;
@@ -52,12 +53,16 @@ h2 {
 .sec-one .contents {
   margin-top: 100px;
 }
+
 .contents {
   width: 50%;
   padding: 2% 5%;
 }
 .contents img {
   width: 100%;
+}
+.adjust {
+  padding-top: 100px;
 }
 
 .contents p {
